@@ -1,0 +1,38 @@
+
+.navbar, .navbar-left, .navbar-right {
+    display: flex;
+    flex-direction: row;    
+    justify-content:  space-between;
+    flex-wrap: wrap;
+	align-items: center;
+	align-content: stretch;
+}
+.navbar {
+	flex-wrap: wrap;
+	justify-content:  space-evenly;
+	align-items: center;
+	align-content: stretch;
+    height: 80px;
+    background-color: black;   
+    color: white;
+    
+}
+.navbar-right {
+    font-size: smaller;
+    color: rgba(211, 211, 211, 0.651)
+}
+.navbar-item {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 0.3em;
+}
+
+.image_area {
+    height: 700px;
+    background: url("images/background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+html {
+  background-color: black;
+}
